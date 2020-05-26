@@ -1,0 +1,175 @@
+@charset "utf-8";
+
+* {
+  margin:0; padding:0;
+}
+
+.container {
+  display:flex;
+
+  .code {
+    background-color: rgb(33, 59, 33);
+    width: 50%;
+    height: 1300px;
+    color: white;
+    position: relative;
+      h1 {
+        text-align: center;
+        margin-top: 40px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        border: 2px solid white;
+        border-radius: 20px;
+        font-family: 'Yu Gothic';
+        font-weight: bold;
+        color: rgb(33, 59, 33);
+        background-color: white;
+      }
+      p {
+        margin-top: 40px;
+        margin-left: 1rem;
+        font-size: 23px;
+        text-align: left;
+        span {
+          border-bottom: 2px solid;
+        }
+      }
+      .a1 {
+        color: yellow;
+        position: relative;
+        left: 0px;
+      }
+      .a2 {
+        color: skyblue;
+        position: relative;
+        left: 25px;
+      }
+      .a3 {
+        color: pink;
+        position: relative;
+        left: 60px;
+      }
+      .border {
+        border-bottom: none;
+        margin-top: 0px;
+      }
+      .css1 {
+        text-align: center;
+        font-size: 30px;
+        letter-spacing: 0.3em;
+      }
+      .css1-2 {
+        margin-top: 5px;
+        font-size: 30px;
+        text-align: left;
+        margin-left: 275px;
+      }
+        .n2 {
+          margin-left: 53px;
+        }
+        .n3 {
+          margin-left: 60px;
+        }
+      .a1-1 {
+        margin-top: 0px;
+        margin-left: 60px;
+        text-align: left;
+        position: relative;
+        font-size: 20px;
+        .a1 {
+          position: absolute;
+          left: 190px;
+        }
+        .a2 {
+          position: absolute;
+          left: 310px
+        }
+        .a3 {
+          position: absolute;
+          left: 455px;
+        }
+      }
+
+        .css2 {
+          text-align: center;
+          font-size: 30px;
+          letter-spacing: 0.1em;
+        }
+        .css2-2 {
+          margin-top: 5px;
+          font-size: 30px;
+          text-align: left;
+          margin-left: 0px;
+          position: relative;
+          .n0 {
+            position: absolute;
+            left: 260px;
+            color: lightgreen;
+          }
+          .n1 {
+            position: absolute;
+            left: 383px
+          }
+          .n2 {
+            position: absolute;
+            left: 410px;
+          }
+          .n3 {
+            position: absolute;
+            left: 505px;
+          }
+        }
+        .a2-1 {
+          margin-top: 50px;
+          margin-left: 60px;
+          text-align: left;
+          position: relative;
+          font-size: 20px;
+          .a0 {
+            position: absolute;
+            left: 175px;
+            color: lightgreen;
+          }
+          .a1 {
+            position: absolute;
+            left: 293px;
+          }
+          .a2 {
+            position: absolute;
+            left: 377px
+          }
+          .a3 {
+            position: absolute;
+            left: 490px;
+          }
+        }
+      }
+  
+  .hyouji {
+    background-color: rgb(133, 209, 137);
+    width: 50%;
+    height: 1300px;
+
+    
+    .css1 {
+      border: 2px solid black;
+      margin-top: 215px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80%;
+      text-align: center;
+      font-size: 30px;
+    }
+    .css2 {
+      border-bottom: 2px solid black;
+      margin-top: 185px;
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 80%;
+      text-align: center;
+      font-size: 30px;
+    } 
+   
+  }
+}

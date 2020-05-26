@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .code {
+  background-color: #213b21;
+  width: 50%;
+  height: 1300px;
+  color: white;
+  position: relative;
+}
+
+.container .code h1 {
+  text-align: center;
+  margin-top: 40px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid white;
+  border-radius: 20px;
+  font-family: 'Yu Gothic';
+  font-weight: bold;
+  color: #213b21;
+  background-color: white;
+}
+
+.container .code p {
+  margin-top: 40px;
+  margin-left: 1rem;
+  font-size: 23px;
+  text-align: left;
+}
+
+.container .code p span {
+  border-bottom: 2px solid;
+}
+
+.container .code .a1 {
+  color: yellow;
+  position: relative;
+  left: 0px;
+}
+
+.container .code .a2 {
+  color: skyblue;
+  position: relative;
+  left: 25px;
+}
+
+.container .code .a3 {
+  color: pink;
+  position: relative;
+  left: 60px;
+}
+
+.container .code .border {
+  border-bottom: none;
+  margin-top: 0px;
+}
+
+.container .code .css1 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.3em;
+}
+
+.container .code .css1-2 {
+  margin-top: 5px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 275px;
+}
+
+.container .code .n2 {
+  margin-left: 53px;
+}
+
+.container .code .n3 {
+  margin-left: 60px;
+}
+
+.container .code .a1-1 {
+  margin-top: 0px;
+  margin-left: 60px;
+  text-align: left;
+  position: relative;
+  font-size: 20px;
+}
+
+.container .code .a1-1 .a1 {
+  position: absolute;
+  left: 190px;
+}
+
+.container .code .a1-1 .a2 {
+  position: absolute;
+  left: 310px;
+}
+
+.container .code .a1-1 .a3 {
+  position: absolute;
+  left: 455px;
+}
+
+.container .code .css2 {
+  text-align: center;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+.container .code .css2-2 {
+  margin-top: 5px;
+  font-size: 30px;
+  text-align: left;
+  margin-left: 0px;
+  position: relative;
+}
+
+.container .code .css2-2 .n0 {
+  position: absolute;
+  left: 260px;
+  color: lightgreen;
+}
+
+.container .code .css2-2 .n1 {
+  position: absolute;
+  left: 383px;
+}
+
+.container .code .css2-2 .n2 {
+  position: absolute;
+  left: 410px;
+}
+
+.container .code .css2-2 .n3 {
+  position: absolute;
+  left: 505px;
+}
+
+.container .code .a2-1 {
+  margin-top: 50px;
+  margin-left: 60px;
+  text-align: left;
+  position: relative;
+  font-size: 20px;
+}
+
+.container .code .a2-1 .a0 {
+  position: absolute;
+  left: 175px;
+  color: lightgreen;
+}
+
+.container .code .a2-1 .a1 {
+  position: absolute;
+  left: 293px;
+}
+
+.container .code .a2-1 .a2 {
+  position: absolute;
+  left: 377px;
+}
+
+.container .code .a2-1 .a3 {
+  position: absolute;
+  left: 490px;
+}
+
+.container .hyouji {
+  background-color: #85d189;
+  width: 50%;
+  height: 1300px;
+}
+
+.container .hyouji .css1 {
+  border: 2px solid black;
+  margin-top: 215px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  text-align: center;
+  font-size: 30px;
+}
+
+.container .hyouji .css2 {
+  border-bottom: 2px solid black;
+  margin-top: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  text-align: center;
+  font-size: 30px;
+}
+/*# sourceMappingURL=style.css.map */
