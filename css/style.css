@@ -180,18 +180,18 @@
   position: relative;
 }
 
-.container .hyouji .number {
+.container .hyouji .hako1 {
   position: absolute;
   left: 45%;
-  font-size: 30px;
-}
-
-.container .hyouji .hako1 {
   top: 150px;
+  font-size: 30px;
 }
 
 .container .hyouji .hako2 {
   top: 400px;
+  position: absolute;
+  left: 45%;
+  font-size: 30px;
 }
 
 .container .hyouji .css1 {

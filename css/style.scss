@@ -152,16 +152,17 @@
     height: 1300px;
     position: relative;
 
-    .number {
+    .hako1 {
       position: absolute;
       left: 45%;
-      font-size: 30px;
-    }
-    .hako1 {
       top: 150px;
+      font-size: 30px;
     }
     .hako2 {
       top: 400px;
+      position: absolute;
+      left: 45%;
+      font-size: 30px;
     }
     .css1 {
       border: 2px solid black;
@@ -181,6 +182,5 @@
       text-align: center;
       font-size: 30px;
     } 
-   
   }
 }
