@@ -177,6 +177,21 @@
   background-color: #85d189;
   width: 50%;
   height: 1300px;
+  position: relative;
+}
+
+.container .hyouji .number {
+  position: absolute;
+  left: 45%;
+  font-size: 30px;
+}
+
+.container .hyouji .hako1 {
+  top: 150px;
+}
+
+.container .hyouji .hako2 {
+  top: 400px;
 }
 
 .container .hyouji .css1 {

@@ -150,8 +150,21 @@
     background-color: rgb(133, 209, 137);
     width: 50%;
     height: 1300px;
+    position: relative;
 
-    
+    .number {
+      position: absolute;
+      left: 45%;
+      font-size: 30px;
+    }
+
+    .hako1 {
+      top: 150px;
+    }
+
+    .hako2 {
+      top: 400px;
+    }
     .css1 {
       border: 2px solid black;
       margin-top: 215px;
