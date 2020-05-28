@@ -10,7 +10,7 @@
 }
 
 .container_index h1 {
-  background-image: url(/image/toptitle.jpg);
+  background-image: url("/image/toptitle.jpg");
   background-size: cover;
   height: 800px;
   text-align: center;
