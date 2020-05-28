@@ -3,6 +3,26 @@
   padding: 0;
 }
 
+.container_index {
+  width: auto;
+  height: 1800px;
+  background-color: #0a330a;
+}
+
+.container_index h1 {
+  background-image: url(/image/toptitle.jpg);
+  background-size: cover;
+  height: 800px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Book Antiqua";
+  color: white;
+  padding-top: 200px;
+  font-weight: normal;
+  letter-spacing: 0.3rem;
+  opacity: .8;
+}
+
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
