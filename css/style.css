@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+svg {
+	fill: none;
+	stroke: dodgerblue;
+	stroke-width: 10;
+	stroke-linecap: round;
+	stroke-dasharray: 230;
+	animation: loader 1.4s infinite cubic-bezier(.4,0,.3,1), loading 1.2s infinite linear;
+	vertical-align: middle;
+}
+
 .container_index {
   width: auto;
   height: 1800px;
