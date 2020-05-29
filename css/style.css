@@ -13,6 +13,15 @@ svg {
 	vertical-align: middle;
 }
 
+@keyframes loader {
+	from { stroke-dashoffset: 230; }
+	to { stroke-dashoffset: -230; }
+}
+@keyframes loading {
+	from { transform: none; }
+	to { transform: rotate(360deg); }
+}
+
 .container_index {
   width: auto;
   height: 1800px;
