@@ -12,12 +12,17 @@
   width: 100%;
   text-decoration: none;
   color: white;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  opacity: .6;
   nav {
     display: flex;
     margin-left: 20px;
     margin-top: 20px;
     a {
       text-decoration: none;
+      color: black;
     }
     li {
       text-decoration: none;
@@ -45,7 +50,6 @@
     padding-top: 200px;
     font-weight: normal;
     letter-spacing: 0.3rem;
-    opacity: .9;
     text-shadow: 2px 2px 5px black;
   }
 }
