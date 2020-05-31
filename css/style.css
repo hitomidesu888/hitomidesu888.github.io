@@ -19,35 +19,60 @@
   opacity: .6;
 }
 
-.site-header .site-logo img {
+.site-header .site-logo {
+  font-size: 30px;
+  color: #3c7484;
+  position: absolute;
+  top: 14px;
+  left: 55px;
+}
+
+.site-header img {
   width: 40px;
-  padding: 8px 8px 8px 30px;
+  position: absolute;
+  top: 5px;
+  left: 10px;
 }
 
 .site-header nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 20px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
 }
 
 .site-header nav a {
   text-decoration: none;
-  color: black;
+  color: #5a52a1;
 }
 
 .site-header nav li {
   text-decoration: none;
   list-style: none;
   display: inline;
-  margin-left: 30px;
+  margin-left: 50px;
+  margin-right: 50px;
   font-size: 20px;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 20px;
+  color: #334875;
+}
+
+.site-header nav li:hover {
+  opacity: 0.5;
+}
+
+.site-header nav li:active {
+  top: 4px;
+  text-shadow: none;
 }
 
 .container_index {
   width: auto;
-  height: 1800px;
+  height: 600px;
 }
 
 .container_index h1 {
