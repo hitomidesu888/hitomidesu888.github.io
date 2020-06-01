@@ -7,18 +7,16 @@
 .site-header {
   position: fixed;
   display: flex;
-  background-color: white;
   height: 65px;
   width: 100%;
   text-decoration: none;
-  color: white;
   z-index: 9999;
   top: 0;
   left: 0;
   opacity: .6;
   .site-logo {
     font-size: 30px;
-    color: #3c7484;
+    color: white;
     position: absolute;
     top: 14px;
     left: 55px;
@@ -34,10 +32,10 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 25px;
     a {
       text-decoration: none;
-      color: rgb(90, 82, 161);
+      color: white;
     }
     li {
       text-decoration: none;
@@ -46,11 +44,9 @@
       margin-left: 50px;
       margin-right: 50px;
       font-size: 20px;
-      text-decoration: none;
-        font-weight: normal;
-        font-size: 20px;
-        color: #334875;
-        &:hover {
+      font-weight: normal;
+      font-size: 20px;
+      &:hover {
         opacity: 0.5;
       }
       &:active {
