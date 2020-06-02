@@ -403,7 +403,7 @@
 }
 
 .container_css h1 {
-  background-image: url("/image/cssbgi.jpg");
+  background-image: url("/image/cssbgi.JPG");
   -webkit-animation: fadein 2s forwards;
           animation: fadein 2s forwards;
   background-size: cover;
