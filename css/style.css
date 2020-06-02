@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+@media (max-width: 670px){
+  .site-header nav {
+  display: none;
+} 
+}
 .site-header {
   position: fixed;
   display: -webkit-box;
