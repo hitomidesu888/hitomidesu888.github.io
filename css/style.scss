@@ -80,10 +80,10 @@ $sp: 480px;  // スマホ
 }
 
 @media screen and (max-width:870px) { 
- .site-header nav { 
-  display: none;
-}
-}
+  .site-header nav { 
+   display: none;
+ }
+ }
 
 .container_index {
   width: auto;
