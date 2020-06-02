@@ -66,6 +66,12 @@
   text-shadow: none;
 }
 
+@media (max-width: 480px) {
+  .site-header nav li {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 870px) {
   .site-header nav {
     display: none;

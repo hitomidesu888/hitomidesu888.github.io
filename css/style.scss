@@ -4,6 +4,26 @@
   margin:0; padding:0;
 }
 
+$pc: 1024px; // PC
+$tab: 680px; // タブレット
+$sp: 480px;  // スマホ
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
+
 .site-header {
   position: fixed;
   display: flex;
@@ -52,6 +72,9 @@
         top: 4px;
         text-shadow: none;
       }
+      @include sp {
+        display: none;
+      };
     }
   }
 }
