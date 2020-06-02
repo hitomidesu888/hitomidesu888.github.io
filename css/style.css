@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -64,6 +65,15 @@
 .site-header nav li:active {
   top: 4px;
   text-shadow: none;
+}
+
+@media screen and (min-width: 480px) {
+  .site-header nav {
+    /*　画面サイズが480pxからはここを読み込む　*/
+  }
+  .site-header nav nav {
+    display: none;
+  }
 }
 
 .container_index {

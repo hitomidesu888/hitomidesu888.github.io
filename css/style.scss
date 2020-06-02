@@ -52,12 +52,16 @@
       &:active {
         top: 4px;
         text-shadow: none;
-      
       }
+    }
+    @media screen and (min-width:480px) { 
+      /*　画面サイズが480pxからはここを読み込む　*/
+    nav { 
+      display: none;
     }
   }
 }
-
+}
 
 .container_index {
   width: auto;
@@ -325,6 +329,7 @@
     }
   }
 }
+
 .container_css {
   width: auto;
   height: 600px;
