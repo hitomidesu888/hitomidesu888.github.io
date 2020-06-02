@@ -337,6 +337,7 @@
   height: 600px;
   h1 {
     background-image: url("/image/cssbgi.jpg");
+    animation: fadein 2s forwards;
     background-size: cover;
     height: 1800px;
     text-align: center;
@@ -347,5 +348,13 @@
     font-weight: normal;
     letter-spacing: 1.2rem;
     text-shadow: 2px 2px 5px black;
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
