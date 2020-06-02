@@ -74,6 +74,7 @@
 
 .container_index h1 {
   background-image: url("/image/toptitle.jpg");
+  background-repeat: no-repeat;
   background-size: 100%;
   height: 500px;
   text-align: center;
