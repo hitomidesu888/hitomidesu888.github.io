@@ -4,26 +4,6 @@
   margin:0; padding:0;
 }
 
-$pc: 1024px; // PC
-$tab: 680px; // タブレット
-$sp: 480px;  // スマホ
-
-@mixin pc {
-  @media (max-width: ($pc)) {
-    @content;
-  }
-}
-@mixin tab {
-  @media (max-width: ($tab)) {
-    @content;
-  }
-}
-@mixin sp {
-  @media (max-width: ($sp)) {
-    @content;
-  }
-}
-
 .site-header {
   position: fixed;
   display: flex;
@@ -72,9 +52,6 @@ $sp: 480px;  // スマホ
         top: 4px;
         text-shadow: none;
       }
-      @include sp {
-        display: none;
-      };
     }
   }
 }
@@ -83,10 +60,7 @@ $sp: 480px;  // スマホ
   .site-header nav { 
    display: none;
  }
-  .container_index h1 {
-    background-size: 20% 80%;
-  }
- }
+}
 
 .container_index {
   width: auto;
@@ -116,11 +90,6 @@ $sp: 480px;  // スマホ
   }
 }
 
-@media screen and (max-width:870px) { 
-  .container_index h1 {
-    background-size: 870px;
-  }
- }
 
 .container {
   display:flex;
@@ -314,7 +283,7 @@ $sp: 480px;  // スマホ
   top: 0;
   left: 0;
   opacity: 0.7;
-  
+
   .site-logo {
     font-size: 30px;
     color: white;

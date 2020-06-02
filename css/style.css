@@ -66,18 +66,9 @@
   text-shadow: none;
 }
 
-@media (max-width: 480px) {
-  .site-header nav li {
-    display: none;
-  }
-}
-
 @media screen and (max-width: 870px) {
   .site-header nav {
     display: none;
-  }
-  .container_index h1 {
-    background-size: 20% 80%;
   }
 }
 
@@ -118,12 +109,6 @@
   }
   100% {
     opacity: 1;
-  }
-}
-
-@media screen and (max-width: 870px) {
-  .container_index h1 {
-    background-size: 870px;
   }
 }
 
