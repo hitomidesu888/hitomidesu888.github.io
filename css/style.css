@@ -3,7 +3,6 @@
   padding: 0;
 }
 
-
 .site-header {
   position: fixed;
   display: -webkit-box;
@@ -22,15 +21,15 @@
   font-size: 30px;
   color: white;
   position: absolute;
-  top: 14px;
-  left: 55px;
+  top: 24px;
+  left: 65px;
 }
 
 .site-header img {
   width: 40px;
   position: absolute;
-  top: 5px;
-  left: 10px;
+  top: 15px;
+  left: 20px;
 }
 
 .site-header nav {
@@ -39,7 +38,7 @@
   display: flex;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 .site-header nav a {
@@ -51,7 +50,7 @@
   text-decoration: none;
   list-style: none;
   display: inline;
-  margin-left: 50px;
+  margin-left: 90px;
   margin-right: 50px;
   font-size: 20px;
   font-weight: normal;
@@ -74,8 +73,9 @@
 
 .container_index h1 {
   background-image: url("/image/toptitle.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
+  -webkit-animation: fadein 2s forwards;
+          animation: fadein 2s forwards;
+  background-size: cover;
   height: 500px;
   text-align: center;
   font-size: 50px;
@@ -85,6 +85,24 @@
   font-weight: normal;
   letter-spacing: 0.3rem;
   text-shadow: 2px 2px 5px black;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .container {
@@ -298,9 +316,103 @@
   font-size: 30px;
 }
 
-@media (max-width: 670px){
-  .site-header nav {
-  display: none;
-} 
+.site-header-css {
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: #082708;
+  text-decoration: none;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+}
+
+.site-header-css .site-logo {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 24px;
+  left: 65px;
+}
+
+.site-header-css .site-logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-header-css img {
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.site-header-css nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+
+.site-header-css nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.site-header-css nav li {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  margin-left: 90px;
+  margin-right: 50px;
+  font-size: 20px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.site-header-css nav li:hover {
+  opacity: 0.5;
+}
+
+.site-header-css nav li:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+.container_css {
+  width: auto;
+  height: 600px;
+}
+
+.container_css h1 {
+  background-image: url("/image/cssbgi.jpg");
+  -webkit-animation: fadein 2s forwards;
+          animation: fadein 2s forwards;
+  background-size: cover;
+  height: 1800px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Book Antiqua";
+  color: white;
+  padding-top: 200px;
+  font-weight: normal;
+  letter-spacing: 1.2rem;
+  text-shadow: 2px 2px 5px black;
+  border: 2px solid white;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 /*# sourceMappingURL=style.css.map */

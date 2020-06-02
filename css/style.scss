@@ -18,21 +18,21 @@
     font-size: 30px;
     color: white;
     position: absolute;
-    top: 14px;
-    left: 55px;
+    top: 24px;
+    left: 65px;
     }
 
   img {
     width: 40px;
     position: absolute;
-    top: 5px;
-    left: 10px;
+    top: 15px;
+    left: 20px;
   }
   nav {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 35px;
     a {
       text-decoration: none;
       color: white;
@@ -41,7 +41,7 @@
       text-decoration: none;
       list-style: none;
       display: inline;
-      margin-left: 50px;
+      margin-left: 90px;
       margin-right: 50px;
       font-size: 20px;
       font-weight: normal;
@@ -64,6 +64,7 @@
   height: 600px;
   h1 {
     background-image: url("/image/toptitle.jpg");
+    animation: fadein 2s forwards;
     background-size: cover;
     height: 500px;
     text-align: center;
@@ -74,6 +75,14 @@
     font-weight: normal;
     letter-spacing: 0.3rem;
     text-shadow: 2px 2px 5px black;
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 
@@ -255,5 +264,91 @@
       text-align: center;
       font-size: 30px;
     } 
+  }
+}
+
+.site-header-css {
+  position: fixed;
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: rgb(8, 39, 8);
+  text-decoration: none;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  .site-logo {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 24px;
+    left: 65px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    }
+
+  img {
+    width: 40px;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+  }
+  nav {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    li {
+      text-decoration: none;
+      list-style: none;
+      display: inline;
+      margin-left: 90px;
+      margin-right: 50px;
+      font-size: 20px;
+      font-weight: normal;
+      font-size: 20px;
+      &:hover {
+        opacity: 0.5;
+      }
+      &:active {
+        top: 4px;
+        text-shadow: none;
+      
+      }
+    }
+  }
+}
+.container_css {
+  width: auto;
+  height: 600px;
+  h1 {
+    background-image: url("/image/cssbgi.jpg");
+    animation: fadein 2s forwards;
+    background-size: cover;
+    height: 1800px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Book Antiqua";
+    color: rgb(255, 255, 255,);
+    padding-top: 200px;
+    font-weight: normal;
+    letter-spacing: 1.2rem;
+    text-shadow: 2px 2px 5px black;
+    border: 2px solid white;
+  }
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
