@@ -85,6 +85,7 @@
 
 .container_index h1 {
   background-image: url("/image/toptitle.jpg");
+  background-repeat: no-repeat;
   -webkit-animation: fadein 2s forwards;
           animation: fadein 2s forwards;
   background-size: 100%;

@@ -90,6 +90,7 @@ $sp: 480px;  // スマホ
   height: 600px;
   h1 {
     background-image: url("/image/toptitle.jpg");
+    background-repeat: no-repeat;
     animation: fadein 2s forwards;
     background-size: 100%;
     height: 500px;
