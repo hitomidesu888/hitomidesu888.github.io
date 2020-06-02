@@ -19,7 +19,7 @@
     color: white;
     position: absolute;
     top: 24px;
-    left: 65px;
+    left: 70px;
     }
   img {
     width: 40px;
@@ -56,26 +56,24 @@
   }
 }
 
-@media screen and (max-width:870px) { 
-  .site-header nav { 
-   display: none;
- }
-}
+
 
 .container_index {
-  width: auto;
-  height: 600px;
+  width: 100%;
+  height: 1200px;
+  background-image: url("/image/toptitle.jpg");
+  background-repeat: no-repeat;
+  animation: fadein 2s forwards;
+  background-size: 100%;
+  text-align: center;
   h1 {
-    background-image: url("/image/toptitle.jpg");
-    background-repeat: no-repeat;
-    animation: fadein 2s forwards;
-    background-size: 100%;
-    height: 500px;
+    padding-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     font-size: 50px;
     font-family: "Book Antiqua";
     color: rgb(255, 255, 255,);
-    padding-top: 200px;
     font-weight: normal;
     letter-spacing: 0.3rem;
     text-shadow: 2px 2px 5px black;
@@ -357,4 +355,21 @@
       opacity: 1;
     }
   }
+}
+
+@media screen and (max-width:870px) { 
+  .site-header nav { 
+    display: none;
+  }
+ .container_index h1 {
+    font-size: 20px;
+    padding-top: 100px;
+ }
+ .site-header .site-logo {
+    left: 30%;
+
+ }
+.site-header img {
+  left: 20%;
+}
 }
