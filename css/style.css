@@ -121,12 +121,6 @@
   }
 }
 
-@media screen and (max-width: 870px) {
-  .container_index h1 {
-    background-size: 870px;
-  }
-}
-
 .container {
   display: -webkit-box;
   display: -ms-flexbox;
