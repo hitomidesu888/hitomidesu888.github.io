@@ -3,11 +3,7 @@
   padding: 0;
 }
 
-@media (max-width: 670px){
-  .site-header nav {
-  display: none;
-} 
-}
+
 .site-header {
   position: fixed;
   display: -webkit-box;
@@ -299,5 +295,11 @@
   max-width: 80%;
   text-align: center;
   font-size: 30px;
+}
+
+@media (max-width: 670px){
+  .site-header nav {
+  display: none;
+} 
 }
 /*# sourceMappingURL=style.css.map */
