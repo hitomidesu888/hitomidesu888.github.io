@@ -367,7 +367,7 @@ $sp: 480px;  // スマホ
   height: 600px;
   h1 {
     background-image: url("/image/cssbgi.jpg");
-    background-size: 100%;
+    background-size: cover;
     height: 1800px;
     text-align: center;
     font-size: 50px;
@@ -378,6 +378,6 @@ $sp: 480px;  // スマホ
     letter-spacing: 1.2rem;
     text-shadow: 2px 2px 5px black;
     border: 2px solid white;
-    
+
   }
 }

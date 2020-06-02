@@ -414,7 +414,7 @@
 
 .container_css h1 {
   background-image: url("/image/cssbgi.jpg");
-  background-size: 100%;
+  background-size: cover;
   height: 1800px;
   text-align: center;
   font-size: 50px;
