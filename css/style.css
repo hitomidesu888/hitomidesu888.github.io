@@ -76,6 +76,9 @@
   .site-header nav {
     display: none;
   }
+  .container_index h1 {
+    background-size: 20% 80%;
+  }
 }
 
 .container_index {
@@ -115,6 +118,12 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 870px) {
+  .container_index h1 {
+    background-size: 870px;
   }
 }
 
