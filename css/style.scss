@@ -384,9 +384,20 @@
       padding-top: 100px;
     }
   }
-
+  .header-css {
+    position: relative;
+    text-align: center;
+    nav { 
+    display: none;
+    }
+    img {
+    max-width:50%;
+    }
+  }
+  
   .container_css {
     background-size: contain;
+    background-repeat: no-repeat;
     width : 100%;
     }
 

@@ -445,8 +445,19 @@
     font-size: 20px;
     padding-top: 100px;
   }
+  .header-css {
+    position: relative;
+    text-align: center;
+  }
+  .header-css nav {
+    display: none;
+  }
+  .header-css img {
+    max-width: 50%;
+  }
   .container_css {
     background-size: contain;
+    background-repeat: no-repeat;
     width: 100%;
   }
 }
