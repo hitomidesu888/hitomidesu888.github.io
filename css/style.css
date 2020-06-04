@@ -428,13 +428,14 @@
 
 @media screen and (max-width: 870px) {
   .header {
-    height: auto;
+    position: relative;
+    text-align: center;
   }
   .header nav {
     display: none;
   }
   .header img {
-    width: 60%;
+    max-width: 50%;
   }
   .container_index {
     background-size: contain;
