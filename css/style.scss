@@ -7,14 +7,14 @@
 .header {
   position: fixed;
   display: flex;
-  height: 65px;
+  height: 85px;
   width: 100%;
   text-decoration: none;
   z-index: 9999;
   top: 0;
   left: 0;
-  background-color: rgb(34, 34, 128)
-  opacity: .6;
+  background-color: rgb(34, 34, 128);
+  opacity: .4;
   .site-logo {
     font-size: 30px;
     color: white;
@@ -76,7 +76,7 @@
     font-family: "Book Antiqua";
     color: rgb(255, 255, 255,);
     font-weight: normal;
-    letter-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
     text-shadow: 2px 2px 5px black;
   }
   @keyframes fadein {
@@ -86,6 +86,13 @@
     100% {
       opacity: 1;
     }
+  }
+  p {
+    margin-top: 30px;
+    color: white;
+    opacity: .8;
+    font-size: 18px;
+    text-shadow: 2px 2px 5px black;
   }
 }
 
@@ -274,7 +281,7 @@
 .header-css {
   position: fixed;
   display: flex;
-  height: 100px;
+  height: 85px;
   width: 100%;
   background-color: rgb(8, 39, 8);
   text-decoration: none;
@@ -314,7 +321,7 @@
       text-decoration: none;
       list-style: none;
       display: inline;
-      margin-left: 90px;
+      margin-left: 80px;
       margin-right: 50px;
       font-size: 20px;
       font-weight: normal;
@@ -358,35 +365,27 @@
 }
 
 @media screen and (max-width:870px) { 
-  .header nav { 
+  .header {
+    background-color: transparent;
+    nav { 
     display: none;
     }
+    img {
+    width: 60%;
+    }
+  }
   .container_index {
     background-size: contain;
     width : 100%;
+    h1 {
+      font-size: 20px;
+      padding-top: 100px;
     }
-  .container_index h1 {
-    font-size: 20px;
-    padding-top: 100px;
-    }
-  .header .site-logo {
-    left: 150px;
+  }
 
-    }
-  .header img {
-    width: 100px;
-    }
-
-  .container_index {
+  .container_css {
     background-size: contain;
     width : 100%;
     }
 
-}
-
-.header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
 }
