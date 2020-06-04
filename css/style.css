@@ -14,6 +14,7 @@
   z-index: 9999;
   top: 0;
   left: 0;
+  background-color: 0;
   opacity: .6;
 }
 
@@ -319,7 +320,7 @@
   font-size: 30px;
 }
 
-.site-header-css {
+.header-css {
   position: fixed;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -334,7 +335,7 @@
   opacity: 0.7;
 }
 
-.site-header-css .site-logo {
+.header-css .site-logo {
   font-size: 30px;
   color: white;
   position: absolute;
@@ -342,19 +343,19 @@
   left: 65px;
 }
 
-.site-header-css .site-logo a {
+.header-css .site-logo a {
   text-decoration: none;
   color: white;
 }
 
-.site-header-css img {
-  width: 40px;
+.header-css img {
+  width: 230px;
   position: absolute;
   top: 15px;
   left: 20px;
 }
 
-.site-header-css nav {
+.header-css nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -363,12 +364,12 @@
   margin-top: 35px;
 }
 
-.site-header-css nav a {
+.header-css nav a {
   text-decoration: none;
   color: white;
 }
 
-.site-header-css nav li {
+.header-css nav li {
   text-decoration: none;
   list-style: none;
   display: inline;
@@ -379,11 +380,11 @@
   font-size: 20px;
 }
 
-.site-header-css nav li:hover {
+.header-css nav li:hover {
   opacity: 0.5;
 }
 
-.site-header-css nav li:active {
+.header-css nav li:active {
   top: 4px;
   text-shadow: none;
 }
