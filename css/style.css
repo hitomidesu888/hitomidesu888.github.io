@@ -403,6 +403,7 @@
   -webkit-animation: fadein 2s forwards;
           animation: fadein 2s forwards;
   background-size: cover;
+  background-repeat: no-repeat;
   height: 1800px;
 }
 
@@ -428,7 +429,6 @@
 
 @media screen and (max-width: 870px) {
   .header {
-    position: relative;
     text-align: center;
   }
   .header nav {
@@ -442,11 +442,13 @@
     width: 100%;
   }
   .container_index h1 {
-    font-size: 20px;
-    padding-top: 100px;
+    font-size: 30px;
+    padding-top: 130px;
+  }
+  .container_index p {
+    display: none;
   }
   .header-css {
-    position: relative;
     text-align: center;
   }
   .header-css nav {
