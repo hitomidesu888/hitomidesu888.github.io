@@ -428,7 +428,7 @@
 
 @media screen and (max-width: 870px) {
   .header {
-    background-color: transparent;
+    height: auto;
   }
   .header nav {
     display: none;
