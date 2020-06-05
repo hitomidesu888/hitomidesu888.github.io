@@ -5,7 +5,7 @@
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   display: flex;
   height: 85px;
   width: 100%;
@@ -61,12 +61,13 @@
 
 .container_index {
   width: 100%;
-  height: 1200px;
+  height: 730px;
   background-image: url("/image/toptitle.jpg");
   background-repeat: no-repeat;
   animation: fadein 2s forwards;
   background-size: 100%;
   text-align: center;
+  box-shadow: 0px 10px 20px 10px rgb(0, 0, 199);
   h1 {
     padding-top: 200px;
     margin-left: auto;
@@ -96,7 +97,34 @@
   }
 }
 
-
+footer {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(17, 95, 168);
+  z-index: 9999;
+  position: relative;
+  color: white;
+  img {
+    margin-top: 40px;
+    width: 60px;
+  }
+  ul {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    list-style: none;
+    opacity: .7;
+    text-decoration: none;
+    li {
+      text-decoration: none;
+    }
+  }
+   p {
+     margin-top: 20px;
+     opacity: .8;
+   }
+}
 .container {
   display:flex;
 
@@ -373,6 +401,7 @@
     }
     img {
     max-width:50%;
+    margin-top: 0px;
     
     }
   }

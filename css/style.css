@@ -4,7 +4,7 @@
 }
 
 .header {
-  position: fixed;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,13 +69,15 @@
 
 .container_index {
   width: 100%;
-  height: 1200px;
+  height: 730px;
   background-image: url("/image/toptitle.jpg");
   background-repeat: no-repeat;
   -webkit-animation: fadein 2s forwards;
           animation: fadein 2s forwards;
   background-size: 100%;
   text-align: center;
+  -webkit-box-shadow: 0px 10px 20px 10px #0000c7;
+          box-shadow: 0px 10px 20px 10px #0000c7;
 }
 
 .container_index h1 {
@@ -115,6 +117,39 @@
   opacity: .8;
   font-size: 18px;
   text-shadow: 2px 2px 5px black;
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  text-align: center;
+  background-color: #115fa8;
+  z-index: 9999;
+  position: relative;
+  color: white;
+}
+
+footer img {
+  margin-top: 40px;
+  width: 60px;
+}
+
+footer ul {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  list-style: none;
+  opacity: .7;
+  text-decoration: none;
+}
+
+footer ul li {
+  text-decoration: none;
+}
+
+footer p {
+  margin-top: 20px;
+  opacity: .8;
 }
 
 .container {
@@ -436,6 +471,7 @@
   }
   .header img {
     max-width: 50%;
+    margin-top: 0px;
   }
   .container_index {
     background-size: contain;
