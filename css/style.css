@@ -127,6 +127,8 @@ footer {
   z-index: 9999;
   position: relative;
   color: white;
+  -webkit-box-shadow: 10px 10px 20px 10px blue;
+          box-shadow: 10px 10px 20px 10px blue;
 }
 
 footer img {
@@ -141,10 +143,13 @@ footer ul {
   list-style: none;
   opacity: .7;
   text-decoration: none;
+  font-size: 24px;
 }
 
-footer ul li {
+footer ul a {
   text-decoration: none;
+  color: white;
+  padding-top: 30px;
 }
 
 footer p {
@@ -473,12 +478,20 @@ footer p {
     max-width: 50%;
     margin-top: 0px;
   }
+  footer {
+    height: 150px;
+  }
+  footer img {
+    width: 50px;
+    margin-top: 20px;
+  }
   .container_index {
-    background-size: contain;
+    background-size: cover;
     width: 100%;
+    height: 300px;
   }
   .container_index h1 {
-    font-size: 30px;
+    font-size: 20px;
     padding-top: 130px;
   }
   .container_index p {
