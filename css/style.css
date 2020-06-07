@@ -70,7 +70,7 @@
 .container_index {
   position: absolute;
   width: 100%;
-  height: 1500px;
+  height: 1100px;
   background-image: url("/image/cssbgi.JPG");
   background-repeat: no-repeat;
   -webkit-animation: fadein 2s forwards;
@@ -89,7 +89,7 @@
   border-radius: 60px;
   padding-top: 100px;
   padding-bottom: 10px;
-  font-size: 50px;
+  font-size: 45px;
   font-family: "Book Antiqua";
   color: white;
   font-weight: normal;
@@ -204,6 +204,16 @@ footer ul {
   opacity: .9;
   text-decoration: none;
   font-size: 24px;
+}
+
+footer ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 footer ul li:hover {
@@ -514,17 +524,26 @@ footer p {
   background-size: cover;
   background-repeat: no-repeat;
   height: 1800px;
+  position: relative;
+  top: -50px;
 }
 
 .container_css h1 {
+  position: relative;
+  top: 300px;
+  margin: 0px 35%;
+  padding: 30px 20px;
   text-align: center;
   font-size: 50px;
   font-family: "Book Antiqua";
   color: white;
-  padding-top: 200px;
   font-weight: normal;
   letter-spacing: 1.2rem;
   text-shadow: 5px 5px 5px black;
+  background-color: rgba(0, 0, 0, 0.589);
+  border-radius: 50px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 @keyframes fadein {
@@ -534,6 +553,48 @@ footer p {
   100% {
     opacity: 1;
   }
+}
+
+.container_css ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-decoration: none;
+  position: relative;
+  top: 400px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.container_css ul li {
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
+  margin-top: 30px;
+  width: calc(100%/3);
+}
+
+.container_css ul li:hover {
+  opacity: 0.6;
+}
+
+.container_css ul li:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+.container_css ul li a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  font-size: 40px;
+  border-radius: 30px;
+  opacity: .6;
+  display: block;
+  margin: 20px 20px;
 }
 
 @media screen and (max-width: 870px) {
@@ -565,27 +626,40 @@ footer p {
   .container_index {
     background-size: cover;
     width: 100%;
-    height: 700px;
+    height: 900px;
   }
   .container_index h1 {
     font-size: 30px;
     top: 133px;
   }
   .container_index img {
-    width: 80%;
+    width: 300px;
+    top: -57px;
   }
   .container_index p {
     display: none;
   }
   .container_index ul {
     width: auto;
+    top: -90px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container_index ul li {
+    width: 90%;
   }
   .container_index ul li a {
+    text-align: center;
     font-size: 18px;
     display: block;
-    width: auto;
-    margin: 4px 4px;
-    opacity: .9;
+    width: 90%;
+    margin: 0px auto;
+    opacity: .6;
   }
   .header-css {
     text-align: center;
