@@ -202,12 +202,12 @@ footer {
   .code {
     background-color: rgb(33, 59, 33);
     width: 50%;
-    height: 1300px;
+    height: 1000px;
     color: white;
     position: relative;
       h1 {
         text-align: center;
-        margin-top: 40px;
+        margin-top: 140px;
         max-width: 80%;
         margin-left: auto;
         margin-right: auto;
@@ -606,6 +606,23 @@ footer {
         }
       }
     }
+    }
+
+    .container {
+      flex-direction: column;
+      width: 100%;
+      .code {
+        h1 {
+          font-size: 20px;
+        }
+        
+        p {
+          font-size: 20px;
+        }
+      }
+      .hyouji {
+        width: 100%;
+      }
     }
 
 }
