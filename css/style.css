@@ -568,6 +568,7 @@ footer p {
     font-size: 20px;
     display: block;
     width: auto;
+    margin: 4px 4px;
   }
   .header-css {
     text-align: center;
