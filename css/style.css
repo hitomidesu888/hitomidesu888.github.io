@@ -565,10 +565,11 @@ footer p {
     width: auto;
   }
   .container_index ul li a {
-    font-size: 20px;
+    font-size: 18px;
     display: block;
     width: auto;
     margin: 4px 4px;
+    opacity: .9;
   }
   .header-css {
     text-align: center;
