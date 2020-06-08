@@ -187,15 +187,15 @@ footer {
         text-shadow: none;
       }
       a {
-      text-decoration: none;
-      color: white;
-      padding-top: 10px;
-      padding-left: 100px;
-      flex-direction: row;
-      img {
-        width: 110px;
+        text-decoration: none;
+        color: white;
+        flex-direction: row;
+        img {
+        width: 100px;
+        position: relative;
+        top: 15px;
         z-index: 9999;
-      }
+        }
       }
     }
   }
@@ -530,19 +530,27 @@ footer {
   }
 
   footer {
-    height: 120px;
-    img {
-      width: 40px;
-      margin-top: 30px;
-    }
-    ul {
-      top: -15px;
-      left: -35px;
-      right: auto;
-      li {
-        margin-top: 0px;
-        font-size: 20px;
+    height: 100px;
+    .logo {
+      display: none;
       }
+
+    ul {
+      top: -30px;
+      text-align: center;
+      li{
+        a {
+          img {
+            width: 90px;
+            display: inline-block;
+            padding: 0 45px;
+          }
+        }
+      }
+    }
+    p {
+      position: relative;
+      top: 60px;
     }
   }
 

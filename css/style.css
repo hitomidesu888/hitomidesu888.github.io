@@ -233,8 +233,6 @@ footer ul li:active {
 footer ul li a {
   text-decoration: none;
   color: white;
-  padding-top: 10px;
-  padding-left: 100px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -242,7 +240,9 @@ footer ul li a {
 }
 
 footer ul li a img {
-  width: 110px;
+  width: 100px;
+  position: relative;
+  top: 15px;
   z-index: 9999;
 }
 
@@ -625,20 +625,23 @@ footer p {
     margin-top: 0px;
   }
   footer {
-    height: 120px;
+    height: 100px;
   }
-  footer img {
-    width: 40px;
-    margin-top: 30px;
+  footer .logo {
+    display: none;
   }
   footer ul {
-    top: -15px;
-    left: -35px;
-    right: auto;
+    top: -30px;
+    text-align: center;
   }
-  footer ul li {
-    margin-top: 0px;
-    font-size: 20px;
+  footer ul li a img {
+    width: 90px;
+    display: inline-block;
+    padding: 0 45px;
+  }
+  footer p {
+    position: relative;
+    top: 60px;
   }
   .container_index {
     background-size: cover;
