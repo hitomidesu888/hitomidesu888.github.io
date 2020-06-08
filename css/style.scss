@@ -96,14 +96,14 @@
   }
   img {
     position: relative;
-    top: -100px;
+    top: -50px;
     width: 620px;
     z-index: 1;
     opacity: 0.6;
   }
   p {
     position: relative;
-    top: -400px;
+    top: -270px;
     margin-top: 20px;
     margin-left: 30%;
     margin-right: 30%;
@@ -164,19 +164,21 @@ footer {
   img {
     margin-top: 20px;
     width: 2%;
+    opacity: .9;
   }
   ul {
     position: absolute;
-    top: 30px;
+    top: -15px;
     left: 50px;
     list-style: none;
-    opacity: .9;
     text-decoration: none;
     font-size: 24px;
+    flex-direction: row;
     
     li {
       display: flex;
       flex-direction: row;
+      display: inline;
       &:hover {
         opacity: 0.6;
       }
@@ -187,7 +189,13 @@ footer {
       a {
       text-decoration: none;
       color: white;
-      padding-top: 30px;
+      padding-top: 10px;
+      padding-left: 100px;
+      flex-direction: row;
+      img {
+        width: 110px;
+        z-index: 9999;
+      }
       }
     }
   }
@@ -525,10 +533,12 @@ footer {
     height: 120px;
     img {
       width: 40px;
-      margin-top: 20px;
+      margin-top: 30px;
     }
     ul {
-      top: 20px;
+      top: -15px;
+      left: -35px;
+      right: auto;
       li {
         margin-top: 0px;
         font-size: 20px;
@@ -542,7 +552,7 @@ footer {
     height: 900px;
     h1 {
       font-size: 30px;
-      top: 140px;
+      top: 100px;
     }
     img {
       width: 300px;
@@ -603,6 +613,7 @@ footer {
       flex-direction: column;
       width: 100%;
       .code {
+        width: 100%;
         h1 {
           font-size: 20px;
         }

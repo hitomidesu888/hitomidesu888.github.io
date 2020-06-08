@@ -118,7 +118,7 @@
 
 .container_index img {
   position: relative;
-  top: -100px;
+  top: -50px;
   width: 620px;
   z-index: 1;
   opacity: 0.6;
@@ -126,7 +126,7 @@
 
 .container_index p {
   position: relative;
-  top: -400px;
+  top: -270px;
   margin-top: 20px;
   margin-left: 30%;
   margin-right: 30%;
@@ -194,16 +194,20 @@ footer {
 footer img {
   margin-top: 20px;
   width: 2%;
+  opacity: .9;
 }
 
 footer ul {
   position: absolute;
-  top: 30px;
+  top: -15px;
   left: 50px;
   list-style: none;
-  opacity: .9;
   text-decoration: none;
   font-size: 24px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 footer ul li {
@@ -214,6 +218,7 @@ footer ul li {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  display: inline;
 }
 
 footer ul li:hover {
@@ -228,7 +233,17 @@ footer ul li:active {
 footer ul li a {
   text-decoration: none;
   color: white;
-  padding-top: 30px;
+  padding-top: 10px;
+  padding-left: 100px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+footer ul li a img {
+  width: 110px;
+  z-index: 9999;
 }
 
 footer p {
@@ -614,10 +629,12 @@ footer p {
   }
   footer img {
     width: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   footer ul {
-    top: 20px;
+    top: -15px;
+    left: -35px;
+    right: auto;
   }
   footer ul li {
     margin-top: 0px;
@@ -630,7 +647,7 @@ footer p {
   }
   .container_index h1 {
     font-size: 30px;
-    top: 140px;
+    top: 100px;
   }
   .container_index img {
     width: 300px;
@@ -697,6 +714,9 @@ footer p {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    width: 100%;
+  }
+  .container .code {
     width: 100%;
   }
   .container .code h1 {
