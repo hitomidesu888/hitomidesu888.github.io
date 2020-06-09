@@ -385,66 +385,6 @@ footer {
   }
 }
 
-.header-css {
-  position: fixed;
-  display: flex;
-  height: 85px;
-  width: 100%;
-  background-color: rgb(8, 39, 8);
-  text-decoration: none;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  opacity: 0.7;
-
-  .site-logo {
-    font-size: 30px;
-    color: white;
-    position: absolute;
-    top: 24px;
-    left: 65px;
-    a {
-      text-decoration: none;
-      color: white;
-    }
-    }
-
-  img {
-    width: 230px;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-  }
-  nav {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 35px;
-    a {
-      text-decoration: none;
-      color: white;
-    }
-    li {
-      text-decoration: none;
-      list-style: none;
-      display: inline;
-      margin-left: 80px;
-      margin-right: 50px;
-      font-size: 20px;
-      font-weight: normal;
-      font-size: 20px;
-      &:hover {
-        opacity: 0.5;
-      }
-      &:active {
-        top: 4px;
-        text-shadow: none;
-      
-      }
-    }
-  }
-}
-
 .container_css {
   width: 100%;
   background-image: url("/image/cssbgi.jpg");
@@ -567,7 +507,7 @@ footer {
     height: 1100px;
     h1 {
       font-size: 30px;
-      top: 100px;
+      top: 105px;
     }
     img {
       width: 300px;

@@ -462,75 +462,6 @@ footer p {
   font-size: 30px;
 }
 
-.header-css {
-  position: fixed;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 85px;
-  width: 100%;
-  background-color: #082708;
-  text-decoration: none;
-  z-index: 9999;
-  top: 0;
-  left: 0;
-  opacity: 0.7;
-}
-
-.header-css .site-logo {
-  font-size: 30px;
-  color: white;
-  position: absolute;
-  top: 24px;
-  left: 65px;
-}
-
-.header-css .site-logo a {
-  text-decoration: none;
-  color: white;
-}
-
-.header-css img {
-  width: 230px;
-  position: absolute;
-  top: 15px;
-  left: 20px;
-}
-
-.header-css nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 35px;
-}
-
-.header-css nav a {
-  text-decoration: none;
-  color: white;
-}
-
-.header-css nav li {
-  text-decoration: none;
-  list-style: none;
-  display: inline;
-  margin-left: 80px;
-  margin-right: 50px;
-  font-size: 20px;
-  font-weight: normal;
-  font-size: 20px;
-}
-
-.header-css nav li:hover {
-  opacity: 0.5;
-}
-
-.header-css nav li:active {
-  top: 4px;
-  text-shadow: none;
-}
-
 .container_css {
   width: 100%;
   background-image: url("/image/cssbgi.jpg");
@@ -664,7 +595,7 @@ footer p {
   }
   .container_index h1 {
     font-size: 30px;
-    top: 100px;
+    top: 105px;
   }
   .container_index img {
     width: 300px;
