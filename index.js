@@ -1,1 +1,6 @@
-$(".header").css("background-color","#00f");
+$(function(){
+  $(".header").$(".header").mouseover(function () { 
+    $(".header").css("background-ccolor", "#00f");
+    
+  });
+})
