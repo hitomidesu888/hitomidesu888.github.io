@@ -173,7 +173,7 @@
   padding: 20px 20px 20px 20px;
   font-size: 40px;
   border-radius: 30px;
-  opacity: .6;
+  opacity: .7;
   display: block;
   margin: 20px 20px;
 }
@@ -194,7 +194,6 @@ footer {
 footer img {
   margin-top: 20px;
   width: 2%;
-  opacity: .9;
 }
 
 footer ul {
@@ -219,6 +218,7 @@ footer ul li {
       -ms-flex-direction: row;
           flex-direction: row;
   display: inline;
+  margin-left: 50px;
 }
 
 footer ul li:hover {
@@ -260,7 +260,7 @@ footer p {
 .container .code {
   background-color: #213b21;
   width: 50%;
-  height: 1000px;
+  height: 1100px;
   color: white;
   position: relative;
 }
@@ -540,7 +540,6 @@ footer p {
   background-repeat: no-repeat;
   height: 1800px;
   position: relative;
-  top: -50px;
 }
 
 .container_css h1 {
@@ -607,7 +606,7 @@ footer p {
   padding: 20px 20px 20px 20px;
   font-size: 40px;
   border-radius: 30px;
-  opacity: .6;
+  opacity: .8;
   display: block;
   margin: 20px 20px;
 }
@@ -633,6 +632,21 @@ footer p {
   footer ul {
     top: -30px;
     text-align: center;
+    left: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+  }
+  footer ul li {
+    margin: 0;
+    padding: 0;
   }
   footer ul li a img {
     width: 90px;
@@ -646,7 +660,7 @@ footer p {
   .container_index {
     background-size: cover;
     width: 100%;
-    height: 900px;
+    height: 1100px;
   }
   .container_index h1 {
     font-size: 30px;
@@ -679,7 +693,7 @@ footer p {
     display: block;
     width: 90%;
     margin: 0px auto;
-    opacity: .6;
+    letter-spacing: 0.3rem;
   }
   .container_css {
     background-size: cover;
@@ -689,6 +703,9 @@ footer p {
   .container_css h1 {
     font-size: 30px;
     top: 200px;
+    background-color: transparent;
+    -webkit-text-decoration-color: rgba(0, 0, 0, 0.589);
+            text-decoration-color: rgba(0, 0, 0, 0.589);
   }
   .container_css ul {
     width: auto;
