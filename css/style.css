@@ -266,7 +266,7 @@ footer p {
 }
 
 .container .code h1 {
-  text-align: center;
+  text-align: left;
   margin-top: 140px;
   max-width: 80%;
   margin-left: auto;
@@ -674,7 +674,19 @@ footer p {
     font-size: 20px;
   }
   .container .code p {
-    font-size: 20px;
+    font-size: 17px;
+    letter-spacing: 0rem;
+  }
+  .container .code .css1 {
+    font-size: 30px;
+    letter-spacing: normal;
+    text-align: left;
+  }
+  .container .code .a1 {
+    left: -65px;
+  }
+  .container .code .a2 {
+    left: -90px;
   }
   .container .hyouji {
     width: 100%;
