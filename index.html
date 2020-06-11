@@ -22,6 +22,12 @@
                 <li><a href="">JavaScript</a></li>
             </ul>
         </nav>
+        <button class="h-m-btn">Ξ</button>
+        <ul class="h-menu">
+          <li><a href="">HTML</a></li>
+          <li><a href="css.html">CSS</a></li>
+          <li><a href="">JavaScript</a></li>
+      </ul>
       </header>
   <div class="container_index">
     <h1>Kakedashi  Dictionary</h1>
@@ -47,7 +53,14 @@
   </footer>
   <script src="jquery.min.js"></script>
   <script>
-    $('h1').html('jQueryで書き替えました');
+    $('.h-menu').hide();
+    $('.h-m-btn').on('click',function(){
+      $('.h-menu').slideToggle();
+
+    })
+    $('.h-menu').on('click',function(){
+      $('.h-menu').slideToggle();
+    })
   </script>
     </body>
 </html>
