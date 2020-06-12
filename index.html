@@ -22,12 +22,17 @@
                 <li><a href="">JavaScript</a></li>
             </ul>
         </nav>
-        <button class="h-m-btn">Ξ</button>
+        <div id="humberger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <ul class="h-menu">
-          <li>menu</li>
-          <li><a href="">HTML</a></li>
-          <li><a href="css.html">CSS</a></li>
-          <li><a href="">JavaScript</a></li>
+          <li class="menu">～　menu　～</li>
+          <li class="item"><a href="">HTML</a></li>
+          <li class="item
+          "><a href="css.html">CSS</a></li>
+          <li class="item"><a href="">JavaScript</a></li>
       </ul>
       </header>
   <div class="container_index">
@@ -55,7 +60,7 @@
   <script src="jquery.min.js"></script>
   <script>
     $('.h-menu').hide();
-    $('.h-m-btn').on('click',function(){
+    $('#humberger').on('click',function(){
       $('.h-menu').slideToggle();
 
     })

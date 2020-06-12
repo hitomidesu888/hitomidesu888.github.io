@@ -67,10 +67,51 @@
   text-shadow: none;
 }
 
+.header #humberger {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  border: 2px solid white;
+  height: 36px;
+  width: 36px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.header #humberger:hover {
+  opacity: 0.5;
+}
+
+.header #humberger div {
+  position: absolute;
+  left: 4px;
+  height: 2px;
+  width: 24px;
+  background-color: white;
+  border-radius: 4px;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header #humberger div:nth-of-type(1) {
+  top: 8px;
+}
+
+.header #humberger div:nth-of-type(2) {
+  top: 16px;
+}
+
+.header #humberger div:nth-of-type(3) {
+  top: 24px;
+}
+
 .header .h-m-btn {
   width: 40px;
   height: 40px;
-  margin: 30px;
+  margin-top: 23px;
   position: absolute;
   right: 20px;
   background-color: #082708;
@@ -88,23 +129,22 @@
   opacity: 1;
 }
 
-.header .h-menu li {
+.header .h-menu .menu {
+  color: white;
+  font-size: 30px;
+  text-decoration: none;
+  list-style: none;
+  text-align: center;
   margin-top: 60px;
-  margin-right: 50px;
-  text-align: right;
+}
+
+.header .h-menu .item {
+  margin-top: 60px;
+  text-align: center;
   color: black;
 }
 
-.header .h-menu li:hover {
-  opacity: 0.5;
-}
-
-.header .h-menu li:active {
-  top: 4px;
-  text-shadow: none;
-}
-
-.header .h-menu li a {
+.header .h-menu .item a {
   list-style: none;
   text-decoration: none;
   color: black;
@@ -114,6 +154,15 @@
   display: inline;
   padding: 5px 50px;
   border-radius: 30px;
+}
+
+.header .h-menu .item a:hover {
+  opacity: 0.5;
+}
+
+.header .h-menu .item a:active {
+  top: 4px;
+  text-shadow: none;
 }
 
 .container_index {
@@ -309,13 +358,13 @@ footer p {
 .container .code {
   background-color: #213b21;
   width: 50%;
-  height: 1100px;
+  height: 800px;
   color: white;
   position: relative;
 }
 
 .container .code h1 {
-  text-align: left;
+  text-align: center;
   margin-top: 140px;
   max-width: 80%;
   margin-left: auto;
@@ -330,7 +379,7 @@ footer p {
 
 .container .code p {
   margin-top: 40px;
-  margin-left: 1rem;
+  margin-left: 45px;
   font-size: 23px;
   text-align: left;
 }
@@ -363,7 +412,7 @@ footer p {
 }
 
 .container .code .css1 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   letter-spacing: 0.3em;
 }
@@ -407,7 +456,7 @@ footer p {
 }
 
 .container .code .css2 {
-  text-align: center;
+  text-align: left;
   font-size: 30px;
   letter-spacing: 0.1em;
 }
@@ -473,7 +522,7 @@ footer p {
 .container .hyouji {
   background-color: #85d189;
   width: 50%;
-  height: 1300px;
+  height: 800px;
   position: relative;
 }
 
@@ -602,6 +651,9 @@ footer p {
   .header img {
     max-width: 50%;
     margin-top: 0px;
+  }
+  .h-menu {
+    width: 100%;
   }
   footer {
     height: 100px;

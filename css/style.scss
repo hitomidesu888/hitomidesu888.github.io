@@ -55,10 +55,44 @@
       }
     }
   }
+
+  #humberger {
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    border: 2px solid white;
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 4px;
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  #humberger div {
+    position: absolute;
+    left: 4px;
+    height: 2px;
+    width: 24px;
+    background-color: white;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  #humberger div:nth-of-type(1) {
+    top: 8px;
+  }
+  #humberger div:nth-of-type(2) {
+    top: 16px;
+  }
+  #humberger div:nth-of-type(3) {
+    top: 24px;
+  }
   .h-m-btn {
     width: 40px;
     height: 40px;
-    margin: 30px;
+    margin-top: 23px;
     position: absolute;
     right: 20px;
     background-color: rgb(8, 39, 8);
@@ -73,19 +107,18 @@
     height: 1100px;
     background-color: black;
     opacity: 1;
-    li {
+    .menu {
+      color: white;
+      font-size: 30px;
+      text-decoration: none;
+      list-style: none;
+      text-align: center;
       margin-top: 60px;
-      margin-right: 50px;
-      text-align: right;
+    }
+    .item {
+      margin-top: 60px;
+      text-align: center;
       color: black;
-
-      &:hover {
-        opacity: 0.5;
-      }
-      &:active {
-        top: 4px;
-        text-shadow: none;
-      }
       a {
         list-style: none;
         text-decoration: none;
@@ -96,6 +129,13 @@
         display: inline;
         padding: 5px 50px;
         border-radius: 30px;
+        &:hover {
+          opacity: 0.5;
+        }
+        &:active {
+          top: 4px;
+          text-shadow: none;
+        }
       }
     }
   }
@@ -254,11 +294,11 @@ footer {
   .code {
     background-color: rgb(33, 59, 33);
     width: 50%;
-    height: 1100px;
+    height: 800px;
     color: white;
     position: relative;
       h1 {
-        text-align: left;
+        text-align: center;
         margin-top: 140px;
         max-width: 80%;
         margin-left: auto;
@@ -272,7 +312,7 @@ footer {
       }
       p {
         margin-top: 40px;
-        margin-left: 1rem;
+        margin-left: 45px;
         font-size: 23px;
         text-align: left;
         span {
@@ -299,7 +339,7 @@ footer {
         margin-top: 0px;
       }
       .css1 {
-        text-align: center;
+        text-align: left;
         font-size: 30px;
         letter-spacing: 0.3em;
       }
@@ -336,7 +376,7 @@ footer {
       }
 
         .css2 {
-          text-align: center;
+          text-align: left;
           font-size: 30px;
           letter-spacing: 0.1em;
         }
@@ -393,7 +433,7 @@ footer {
   .hyouji {
     background-color: rgb(133, 209, 137);
     width: 50%;
-    height: 1300px;
+    height: 800px;
     position: relative;
 
     .hako1 {
@@ -510,6 +550,10 @@ footer {
     max-width:50%;
     margin-top: 0px;
     }
+  }
+
+  .h-menu {
+    width: 100%;
   }
 
   footer {
