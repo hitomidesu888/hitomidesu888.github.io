@@ -5,7 +5,7 @@
 }
 
 .header {
-  position: absolute;
+  position: fixed;
   display: flex;
   height: 85px;
   width: 100%;
@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   background-color: rgb(8, 39, 8);
-  opacity: .8;
+  opacity: .7;
   .site-logo {
     font-size: 30px;
     color: white;
@@ -65,7 +65,6 @@
     width: 36px;
     display: inline-block;
     box-sizing: border-box;
-    border-radius: 4px;
     &:hover {
       opacity: 0.5;
     }
@@ -76,7 +75,6 @@
     height: 2px;
     width: 24px;
     background-color: white;
-    border-radius: 4px;
     display: inline-block;
     box-sizing: border-box;
   }
@@ -106,7 +104,7 @@
     width: 100%;
     height: 1100px;
     background-color: black;
-    opacity: 1;
+    opacity: 1.0;
     .menu {
       color: white;
       font-size: 30px;
@@ -118,17 +116,16 @@
     .item {
       margin-top: 60px;
       text-align: center;
-      color: black;
+      color: white;
       a {
         list-style: none;
         text-decoration: none;
-        color: black;
+        color: white;
         display: inline;
         font-size: 30px;
-        background-color: white;
         display: inline;
         padding: 5px 50px;
-        border-radius: 30px;
+        border-radius: 10px;
         &:hover {
           opacity: 0.5;
         }
@@ -146,12 +143,15 @@
 .container_index {
   position: absolute;
   width: 100%;
-  height: 1100px;
+  height: 1300px;
   background-image: url("/image/cssbgi.JPG");
   background-repeat: no-repeat;
   animation: fadein 2s forwards;
   background-size: cover;
   text-align: center;
+  .aboutme {
+    top: 210px;
+  }
   h1 {
     position: relative;
     left: auto;
@@ -234,6 +234,29 @@
   }
 }
 
+.container-about {
+  background-color: white;
+  width: 90%;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  p {
+    top: 80px;
+    color: rgb(0, 0, 0);
+    text-shadow: none;
+    z-index: 9999;
+  }
+  img {
+    width: 270px;
+    position: absolute;
+    left: 100px;
+    top: 750px;
+    z-index: 9999;
+
+  }
+}
+
 footer {
   position: fixed;
   bottom: 0px;
@@ -242,7 +265,7 @@ footer {
   width: 100%;
   text-align: center;
   background-color: rgb(8, 39, 8);
-  z-index: 9999;
+  z-index: 9997;
   opacity: .8;
   color: white;
   img {
@@ -278,7 +301,7 @@ footer {
         width: 100px;
         position: relative;
         top: 15px;
-        z-index: 9999;
+        z-index: 9998;
         }
       }
     }
@@ -548,7 +571,7 @@ footer {
     }
     img {
     max-width:50%;
-    margin-top: 0px;
+    margin-top: 2px;
     }
   }
 
@@ -619,6 +642,19 @@ footer {
           margin: 0px auto;
           letter-spacing: 0.3rem;
         }
+      }
+    }
+    .aboutme {
+      top: 80px;
+    }
+    .container-about {
+      text-align: center;
+      p {
+        text-align: center;
+        display: inline;
+      }
+      img {
+        display: none;
       }
     }
   }
