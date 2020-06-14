@@ -139,7 +139,18 @@
 .header .h-menu .item {
   margin-top: 60px;
   text-align: center;
+  width: 100%;
   color: white;
+  border: 1px solid white;
+}
+
+.header .h-menu .item:hover {
+  opacity: 0.5;
+}
+
+.header .h-menu .item:active {
+  top: 4px;
+  text-shadow: none;
 }
 
 .header .h-menu .item a {
@@ -148,18 +159,9 @@
   color: white;
   display: inline;
   font-size: 30px;
-  display: inline;
-  padding: 5px 50px;
+  display: block;
   border-radius: 10px;
-}
-
-.header .h-menu .item a:hover {
-  opacity: 0.5;
-}
-
-.header .h-menu .item a:active {
-  top: 4px;
-  text-shadow: none;
+  padding: 5px auto;
 }
 
 .container_index {
@@ -213,6 +215,13 @@
   100% {
     opacity: 1;
   }
+}
+
+.container_index .css-h1 {
+  letter-spacing: 2rem;
+  font-size: 50px;
+  top: 230px;
+  padding-left: 30px;
 }
 
 .container_index img {
@@ -284,6 +293,7 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 10px;
+  opacity: .8;
 }
 
 .container-about p {
@@ -293,12 +303,14 @@
   z-index: 9999;
 }
 
-.container-about img {
+.profile {
   width: 270px;
   position: absolute;
   left: 100px;
   top: 750px;
   z-index: 9999;
+  border-radius: 10px;
+  opacity: .9;
 }
 
 footer {
@@ -585,86 +597,6 @@ footer p {
   font-size: 30px;
 }
 
-.container_css {
-  width: 100%;
-  background-image: url("/image/cssbgi.jpg");
-  -webkit-animation: fadein 2s forwards;
-          animation: fadein 2s forwards;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 1800px;
-  position: relative;
-}
-
-.container_css h1 {
-  position: relative;
-  top: 300px;
-  margin: 0px 35%;
-  padding: 30px 20px;
-  text-align: center;
-  font-size: 50px;
-  font-family: "Book Antiqua";
-  color: white;
-  font-weight: normal;
-  letter-spacing: 1.2rem;
-  text-shadow: 5px 5px 5px black;
-  background-color: rgba(0, 0, 0, 0.589);
-  border-radius: 50px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-@keyframes fadein {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-.container_css ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-decoration: none;
-  position: relative;
-  top: 400px;
-  margin-top: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
-
-.container_css ul li {
-  text-decoration: none;
-  list-style: none;
-  text-align: center;
-  margin-top: 30px;
-  width: calc(100%/3);
-}
-
-.container_css ul li:hover {
-  opacity: 0.6;
-}
-
-.container_css ul li:active {
-  top: 4px;
-  text-shadow: none;
-}
-
-.container_css ul li a {
-  text-decoration: none;
-  color: black;
-  background-color: white;
-  padding: 20px 20px 20px 20px;
-  font-size: 40px;
-  border-radius: 30px;
-  opacity: .8;
-  display: block;
-  margin: 20px 20px;
-}
-
 @media screen and (max-width: 870px) {
   .header {
     position: fixed;
@@ -723,6 +655,11 @@ footer p {
     font-size: 30px;
     top: 105px;
   }
+  .container_index .css-h1 {
+    font-size: 30px;
+    top: 90px;
+    padding-left: 20px;
+  }
   .container_index img {
     width: 300px;
     top: -57px;
@@ -756,48 +693,20 @@ footer p {
     top: 80px;
   }
   .container_index .container-about {
-    text-align: center;
+    text-align: left;
+    width: 100%;
   }
   .container_index .container-about p {
     text-align: center;
-    display: inline;
+    display: block;
+    margin: 15px 20px;
+    font-size: 15px;
   }
   .container_index .container-about img {
     display: none;
   }
-  .container_css {
-    background-size: cover;
-    width: 100%;
-    height: 900px;
-  }
-  .container_css h1 {
-    font-size: 30px;
-    top: 200px;
-    background-color: transparent;
-    -webkit-text-decoration-color: rgba(0, 0, 0, 0.589);
-            text-decoration-color: rgba(0, 0, 0, 0.589);
-  }
-  .container_css ul {
-    width: auto;
-    top: 190px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .container_css ul li {
-    width: 90%;
-  }
-  .container_css ul li a {
-    text-align: center;
-    font-size: 18px;
-    display: block;
-    width: 90%;
-    margin: 0px auto;
-    opacity: .6;
+  .profile {
+    display: none;
   }
   .container {
     -webkit-box-orient: vertical;
