@@ -14,28 +14,62 @@
       <nav>
           <ul>
               <li><a href="">HTML</a></li>
-              <li><a href="">CSS</a></li>
+              <li><a href="css.html">CSS</a></li>
               <li><a href="">JavaScript</a></li>
+              <li><a href="about.html">ABOUT</a></li>
           </ul>
       </nav>
+      <div id="humberger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="h-menu">
+        <li class="menu">～ Menu ～</li>
+        <li class="item"><a href="">HTML</a></li>
+        <li class="item
+        "><a href="css.html">CSS</a></li>
+        <li class="item"><a href="">JavaScript</a></li>
+        <li class="item"><a href="about.html">ABOUT</a></li>
+    </ul>
   </header>
-<div class="container_css">
-  <h1>boeder</h1>
-  <ul>
+<div class="container_index">
+  <h1 class="css-h1"> border</h1>
+  <img src="/image/dictionary.png">
+  <ul class="ul-css">
     <li><a href="border-position.html">borderの場所</a></li>
-    <li><a href="">borderの種類</a></li>
+    <li><a href="">CSS</a></li>
     <li><a href="">JavaScript</a></li>
 </ul>
 </div>
 <footer>
-  <img class="logo" src="/image/3288.png">
-  <ul>
-    <li><a href="https://twitter.com/hitomidesu888"><img src="/image/twitter.png"></a></li>
-      <li><a href="mailto:kakedashi.dictionary@gmail.com"><img src="/image/email.png"></a></li>
-    <li></li>
-  </ul>
-  
-  <p>© All rights reserved by Kakedashi Dictionary.</p>
+    <img class="logo" src="/image/3288.png">
+    <ul>
+      <li><a href="https://twitter.com/hitomidesu888"><img src="/image/twitter.png"></a></li>
+        <li><a href="mailto:kakedashi.dictionary@gmail.com"><img src="/image/email.png"></a></li>
+      <li></li>
+    </ul>
+    
+    <p>© All rights reserved by Kakedashi Dictionary.</p>
 </footer>
+<script src="jquery.min.js"></script>
+  <script>
+    $('.h-menu').hide();
+    $('#humberger').on('click',function(){
+      $('.h-menu').slideToggle();
+    })
+
+    $('#humberger').on('click',function(){
+      $('.header').css('opacity',.9);
+
+    })
+    $('.h-menu').on('click',function(){
+      $('.h-menu').slideToggle();
+    })
+    
+    $('.h-menu').on('click',function(){
+      $('.header').css('opacity',.6);
+    })
+  </script>
 </body>
 </html>
