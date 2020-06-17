@@ -13,8 +13,11 @@
     </script>
   </head>
   <body>
+    <div id="loading" class="loading active">
+      <div class="loadingText">Loading...</div>
+    </div>
       <header class="header">
-        <img src="image/logo-w.png" alt="KAKEDASHI Dictionary">
+        <img src="image/logo-w.png" alt="K-Dictionary">
         <nav>
             <ul>
                 <li><a href="">HTML</a></li>
@@ -61,6 +64,11 @@
   </footer>
   <script src="jquery.min.js"></script>
   <script>
+    $(window).on('load',function(){
+      setTimeout(function(){
+      $('#loading').removeClass('active')},1000);
+    })
+
     $('.h-menu').hide();
     $('#humberger').on('click',function(){
       $('.h-menu').slideToggle();
