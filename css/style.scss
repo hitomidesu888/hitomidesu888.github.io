@@ -385,9 +385,10 @@ footer {
         left: 0px;
       }
       .a2 {
-        color: skyblue;
+        
         position: relative;
         left: 25px;
+        color: skyblue;
       }
       .a3 {
         color: pink;
@@ -421,17 +422,23 @@ footer {
         text-align: left;
         position: relative;
         font-size: 20px;
-        .a1 {
+        .n1-word {
           position: absolute;
           left: 190px;
+          border-bottom: none;
+          color: yellow;
         }
-        .a2 {
+        .n2-word {
           position: absolute;
-          left: 310px
+          left: 310px;
+          border-bottom: none;
+          color: skyblue;
         }
-        .a3 {
+        .n3-word {
           position: absolute;
           left: 455px;
+          border-bottom: none;
+          color: pink;
         }
       }
 
@@ -590,7 +597,8 @@ footer {
     .css-h1 {
       font-size: 30px;
       top: 90px;
-      padding-left: 20px;
+      padding-left: 0px;
+      letter-spacing: 0.5rem;
     }
     img {
       width: 300px;
@@ -615,6 +623,9 @@ footer {
           letter-spacing: 0.3rem;
         }
       }
+    }
+    .ul-css {
+      margin-top: 50px;
     }
     .aboutme {
       top: 80px;
@@ -650,19 +661,45 @@ footer {
         p {
           font-size: 17px;
           letter-spacing: 0rem;
+          margin-left: 20px;
         }
         .css1 {
-          font-size: 30px;
+          font-size: 25px;
           letter-spacing: normal;
           text-align: left;
+          margin: 0;
+          padding: 0;
+          margin-left: 30px;
+          margin-top: 20px;
         }
-        .a1 {
-          left: -65px;
+        .n1 {
+          left: 140px;
         }
-        .a2 {
-          left: -90px;
+        .n2 {
+          left: 160px;
         }
-        
+        .n3 {
+          left: 130px;
+        }
+        .css1-2 {
+          margin-left: 0;
+        .a1-1 {
+          margin: 0;
+          padding: 0;
+          position: absolute;
+          left: 0;
+          .n1-word {
+            padding: 0;
+            position: absolute;
+            margin: 0;
+            left: -100px;
+          }
+          .a2 {
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
       }
       .hyouji {
         width: 100%;

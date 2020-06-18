@@ -477,9 +477,9 @@ footer p {
 }
 
 .container .code .a2 {
-  color: skyblue;
   position: relative;
   left: 25px;
+  color: skyblue;
 }
 
 .container .code .a3 {
@@ -522,19 +522,25 @@ footer p {
   font-size: 20px;
 }
 
-.container .code .a1-1 .a1 {
+.container .code .a1-1 .n1-word {
   position: absolute;
   left: 190px;
+  border-bottom: none;
+  color: yellow;
 }
 
-.container .code .a1-1 .a2 {
+.container .code .a1-1 .n2-word {
   position: absolute;
   left: 310px;
+  border-bottom: none;
+  color: skyblue;
 }
 
-.container .code .a1-1 .a3 {
+.container .code .a1-1 .n3-word {
   position: absolute;
   left: 455px;
+  border-bottom: none;
+  color: pink;
 }
 
 .container .code .css2 {
@@ -703,7 +709,8 @@ footer p {
   .container_index .css-h1 {
     font-size: 30px;
     top: 90px;
-    padding-left: 20px;
+    padding-left: 0px;
+    letter-spacing: 0.5rem;
   }
   .container_index img {
     width: 300px;
@@ -733,6 +740,9 @@ footer p {
     width: 90%;
     margin: 0px auto;
     letter-spacing: 0.3rem;
+  }
+  .container_index .ul-css {
+    margin-top: 50px;
   }
   .container_index .aboutme {
     top: 80px;
@@ -769,17 +779,44 @@ footer p {
   .container .code p {
     font-size: 17px;
     letter-spacing: 0rem;
+    margin-left: 20px;
   }
   .container .code .css1 {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: normal;
     text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 20px;
   }
-  .container .code .a1 {
-    left: -65px;
+  .container .code .n1 {
+    left: 140px;
   }
-  .container .code .a2 {
-    left: -90px;
+  .container .code .n2 {
+    left: 160px;
+  }
+  .container .code .n3 {
+    left: 130px;
+  }
+  .container .code .css1-2 {
+    margin-left: 0;
+  }
+  .container .code .css1-2 .a1-1 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 0;
+  }
+  .container .code .css1-2 .a1-1 .n1-word {
+    padding: 0;
+    position: absolute;
+    margin: 0;
+    left: -100px;
+  }
+  .container .code .css1-2 .a1-1 .a2 {
+    padding: 0;
+    margin: 0;
   }
   .container .hyouji {
     width: 100%;
