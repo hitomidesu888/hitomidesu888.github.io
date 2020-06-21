@@ -672,32 +672,76 @@ footer {
           margin-left: 30px;
           margin-top: 20px;
         }
-        .n1 {
-          left: 140px;
-        }
-        .n2 {
-          left: 160px;
-        }
-        .n3 {
-          left: 130px;
-        }
+        
         .css1-2 {
           margin-left: 0;
+          .n1 {
+            left: 140px;
+          }
+          .n2 {
+            left: 110px;
+          }
+          .n3 {
+            left: 70px;
+          }
+        }
         .a1-1 {
-          margin: 0;
-          padding: 0;
-          position: absolute;
-          left: 0;
+          font-size: 15px;
           .n1-word {
             padding: 0;
             position: absolute;
             margin: 0;
-            left: -100px;
+            left: 60px;
           }
-          .a2 {
+          .n2-word {
             padding: 0;
             margin: 0;
+            left: 130px;
           }
+          .n3-word {
+            padding: 0;
+            margin: 0;
+            left: 200px;
+          }
+        }
+      .css2 {
+        font-size: 25px;
+          letter-spacing: normal;
+          text-align: left;
+          margin: 0;
+          padding: 0;
+          margin-left: 30px;
+          margin-top: 20px;
+      }
+      .css2-2 {
+        margin-left: 0;
+        .n0 {
+          position: absolute;
+          left: 160px;
+        }
+        .n1 {
+          left: 245px;
+        }
+        .n2 {
+          left: 250px;
+        }
+        .n3 {
+          left: 310px;
+        }
+      }
+      .a2-1 {
+        font-size: 15px;
+        .a0 {
+          left: 80px;
+        }
+        .a1 {
+          left: 165px;
+        }
+        .a2 {
+          left: 230px;
+        }
+        .a3 {
+          left: 300px;
         }
       }
       }

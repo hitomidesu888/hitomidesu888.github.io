@@ -16,6 +16,19 @@
               <li><a href="">JavaScript</a></li>
           </ul>
       </nav>
+      <div id="humberger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <ul class="h-menu">
+        <li class="menu">～ Menu ～</li>
+        <li class="item"><a href="">HTML</a></li>
+        <li class="item
+        "><a href="css.html">CSS</a></li>
+        <li class="item"><a href="">JavaScript</a></li>
+        <li class="item about"><a href="about.html">ABOUT</a></li>
+    </ul>
   </header>
   <div class="container">
     <div class="code">
@@ -37,7 +50,7 @@
       </p>
       <p> 2⃣　特定の場所にだけ線を付ける場合のCSSは (例：下線）</p>
       <p class="css2">
-        border -
+        border-
         <span class="nonrem">bottom</span>: 
         <span>2px</span>
         <span>solid</span>
@@ -78,5 +91,29 @@
     
     <p>© All rights reserved by Kakedashi Dictionary.</p>
 </footer>
+<script src="jquery.min.js"></script>
+  <script>
+    $(window).on('load',function(){
+      setTimeout(function(){
+      $('#loading').removeClass('active')},1000);
+    })
+
+    $('.h-menu').hide();
+    $('#humberger').on('click',function(){
+      $('.h-menu').slideToggle();
+    })
+
+    $('#humberger').on('click',function(){
+      $('.header').css('opacity',.9);
+
+    })
+    $('.h-menu').on('click',function(){
+      $('.h-menu').slideToggle();
+    })
+
+    $('.h-menu').on('click',function(){
+      $('.header').css('opacity',.6);
+    })
+  </script>
     </body>
 </html>

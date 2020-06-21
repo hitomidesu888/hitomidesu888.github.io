@@ -790,33 +790,76 @@ footer p {
     margin-left: 30px;
     margin-top: 20px;
   }
-  .container .code .n1 {
-    left: 140px;
-  }
-  .container .code .n2 {
-    left: 160px;
-  }
-  .container .code .n3 {
-    left: 130px;
-  }
   .container .code .css1-2 {
     margin-left: 0;
   }
-  .container .code .css1-2 .a1-1 {
-    margin: 0;
+  .container .code .css1-2 .n1 {
+    left: 140px;
+  }
+  .container .code .css1-2 .n2 {
+    left: 110px;
+  }
+  .container .code .css1-2 .n3 {
+    left: 70px;
+  }
+  .container .code .a1-1 {
+    font-size: 15px;
+  }
+  .container .code .a1-1 .n1-word {
     padding: 0;
     position: absolute;
-    left: 0;
+    margin: 0;
+    left: 60px;
   }
-  .container .code .css1-2 .a1-1 .n1-word {
+  .container .code .a1-1 .n2-word {
     padding: 0;
+    margin: 0;
+    left: 130px;
+  }
+  .container .code .a1-1 .n3-word {
+    padding: 0;
+    margin: 0;
+    left: 200px;
+  }
+  .container .code .css2 {
+    font-size: 25px;
+    letter-spacing: normal;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .container .code .css2-2 {
+    margin-left: 0;
+  }
+  .container .code .css2-2 .n0 {
     position: absolute;
-    margin: 0;
-    left: -100px;
+    left: 160px;
   }
-  .container .code .css1-2 .a1-1 .a2 {
-    padding: 0;
-    margin: 0;
+  .container .code .css2-2 .n1 {
+    left: 245px;
+  }
+  .container .code .css2-2 .n2 {
+    left: 250px;
+  }
+  .container .code .css2-2 .n3 {
+    left: 310px;
+  }
+  .container .code .a2-1 {
+    font-size: 15px;
+  }
+  .container .code .a2-1 .a0 {
+    left: 80px;
+  }
+  .container .code .a2-1 .a1 {
+    left: 165px;
+  }
+  .container .code .a2-1 .a2 {
+    left: 230px;
+  }
+  .container .code .a2-1 .a3 {
+    left: 300px;
   }
   .container .hyouji {
     width: 100%;
