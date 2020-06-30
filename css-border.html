@@ -19,20 +19,22 @@
               <li><a href="about.html">ABOUT</a></li>
           </ul>
       </nav>
-      <div id="humberger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul class="h-menu">
-        <li class="menu">～ Menu ～</li>
-        <li class="item"><a href="">HTML</a></li>
-        <li class="item
-        "><a href="css.html">CSS</a></li>
-        <li class="item"><a href="">JavaScript</a></li>
-        <li class="item"><a href="about.html">ABOUT</a></li>
-    </ul>
+      
   </header>
+
+  <div id="humberger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <ul class="h-menu">
+    <li class="menu">～ Menu ～</li>
+    <li class="item"><a href="">HTML</a></li>
+    <li class="item
+    "><a href="css.html">CSS</a></li>
+    <li class="item"><a href="">JavaScript</a></li>
+    <li class="item"><a href="about.html">ABOUT</a></li>
+</ul>
 <div class="container_index">
   <h1 class="css-h1"> border</h1>
   <img src="/image/dictionary.png">
@@ -59,17 +61,10 @@
       $('.h-menu').slideToggle();
     })
 
-    $('#humberger').on('click',function(){
-      $('.header').css('opacity',.9);
-
-    })
     $('.h-menu').on('click',function(){
       $('.h-menu').slideToggle();
     })
     
-    $('.h-menu').on('click',function(){
-      $('.header').css('opacity',.6);
-    })
   </script>
 </body>
 </html>
