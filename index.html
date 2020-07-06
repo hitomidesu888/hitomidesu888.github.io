@@ -1,48 +1,50 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>K-Dictionary</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="favicon.ico" />
-    <link rel="apple-touch-icon" href="image/apple-touch-icon.png" sizes="180×180">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>
-      
-    </script>
-  </head>
-  <body>
-    <div id="loading" class="loading active">
-      <div class="loadingText">Loading...</div>
-    </div>
-      <header class="header">
-        <img src="image/logo-w.png" alt="K-Dictionary">
-        <nav>
-            <ul>
-                <li><a href="">HTML</a></li>
-                <li><a href="css.html">CSS</a></li>
-                <li><a href="">JavaScript</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-            </ul>
-        </nav>
-        
-      </header>
-      <div id="humberger">
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-      <ul class="h-menu">
-        <li class="menu">～ Menu ～</li>
-        <li class="item"><a href="">HTML</a></li>
-        <li class="item
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>K-Dictionary</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="image/apple-touch-icon.png" sizes="180×180">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+
+  </script>
+</head>
+
+<body>
+  <div id="loading" class="loading active">
+    <div class="loadingText">Loading...</div>
+  </div>
+  <header class="header">
+    <img src="image/logo-w.png" alt="K-Dictionary">
+    <nav>
+      <ul>
+        <li><a href="">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="">JavaScript</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div id="humberger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <ul class="h-menu">
+    <li class="menu">～ Menu ～</li>
+    <li class="item"><a href="">HTML</a></li>
+    <li class="item
         "><a href="css.html">CSS</a></li>
-        <li class="item"><a href="">JavaScript</a></li>
-        <li class="item about"><a href="about.html">ABOUT</a></li>
-    </ul>
+    <li class="item"><a href="">JavaScript</a></li>
+    <li class="item about"><a href="about.html">ABOUT</a></li>
+  </ul>
   <div class="container_index">
-    <h1>Kakedashi  Dictionary</h1>
+    <h1>Kakedashi Dictionary</h1>
     <img src="/image/dictionary.png">
     <p>駆け出しによる　駆け出しのための Dictionary です　</p>
     <p>いつでも手に取ってご覧ください
@@ -51,34 +53,60 @@
       <li><a href="">HTML</a></li>
       <li><a href="css.html">CSS</a></li>
       <li><a href="">JavaScript</a></li>
-  </ul>
+    </ul>
+    <dl>
+      <dt>HTML</dt>
+      <dd>
+        <ul class="main-ul">
+          <li class="main-menu"><a href="">HTMLって何？</a></li>
+          <li class="main-menu"><a href="">header</a></li>
+          <li class="main-menu"><a href="">body</a></li>
+          <li class="main-menu"><a href="">footer</a></li>
+        </ul>
+      </dd>
+      <dt><a href="">CSS</a></dt>
+      <dd>
+        <ul class="main-ul">
+          <li class="main-menu"><a href="">border</a></li>
+          <li class="main-menu"><a href="">position</a></li>
+          <li class="main-menu"><a href="">font-size</a></li>
+        </ul>
+      </dd>
+    </dl>
   </div>
   <footer>
     <img class="logo" src="/image/3288.png">
     <ul>
       <li><a href="https://twitter.com/hitomidesu888"><img src="/image/twitter.png"></a></li>
-        <li><a href="mailto:kakedashi.dictionary@gmail.com"><img src="/image/email.png"></a></li>
+      <li><a href="mailto:kakedashi.dictionary@gmail.com"><img src="/image/email.png"></a></li>
       <li></li>
     </ul>
-    
+
     <p>© All rights reserved by Kakedashi Dictionary.</p>
   </footer>
   <script src="jquery.min.js"></script>
   <script>
-    $(window).on('load',function(){
-      setTimeout(function(){
-      $('#loading').removeClass('active')},1000);
+    $(window).on('load', function () {
+      setTimeout(function () {
+        $('#loading').removeClass('active')
+      }, 1000);
     })
 
     $('.h-menu').hide();
-    $('#humberger').on('click',function(){
+    $('#humberger').on('click', function () {
       $('.h-menu').slideToggle();
     })
 
-    $('.h-menu').on('click',function(){
+    $('.h-menu').on('click', function () {
       $('.h-menu').slideToggle();
     })
 
+    
+    $('dt').on('click',function ()
+    {
+      $('.main-ul').slideToggle();
+    })
   </script>
-    </body>
+</body>
+
 </html>

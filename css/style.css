@@ -222,7 +222,7 @@
 .container_index {
   position: absolute;
   width: 100%;
-  height: 1300px;
+  height: 1700px;
   background-image: url("/image/cssbgi.JPG");
   background-repeat: no-repeat;
   -webkit-animation: fadein 2s forwards;
@@ -343,6 +343,89 @@
 
 .container_index .ul-css {
   margin-top: 150px;
+}
+
+.container_index dl {
+  width: 30%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 0;
+}
+
+.container_index dt {
+  border: 1px solid #fff;
+  padding: 3px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  text-align: center;
+  opacity: .8;
+}
+
+.container_index dt:hover {
+  opacity: 0.6;
+}
+
+.container_index dt:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+.container_index dt a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  font-size: 40px;
+  border-radius: 30px;
+  opacity: .7;
+  display: block;
+  margin: 20px 20px;
+}
+
+.container_index dd .main-ul {
+  position: static;
+  width: 80%;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.container_index dd .main-ul .main-menu {
+  position: static;
+  width: 100%;
+}
+
+.container_index dd .main-ul .main-menu:hover {
+  opacity: 0.6;
+}
+
+.container_index dd .main-ul .main-menu:active {
+  top: 4px;
+  text-shadow: none;
+}
+
+.container_index dd .main-ul .main-menu a {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 20px 20px 20px 20px;
+  font-size: 40px;
+  border-radius: 30px;
+  opacity: .7;
+  display: block;
+  margin: 20px 20px;
+  width: 100%;
 }
 
 .container-about {

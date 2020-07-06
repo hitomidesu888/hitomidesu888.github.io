@@ -182,7 +182,7 @@
 .container_index {
   position: absolute;
   width: 100%;
-  height: 1300px;
+  height: 1700px;
   background-image: url("/image/cssbgi.JPG");
   background-repeat: no-repeat;
   animation: fadein 2s forwards;
@@ -280,6 +280,83 @@
   .ul-css {
     margin-top: 150px;
   }
+  
+  dl {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0;
+  }
+
+  dt {
+    border: 1px solid #fff;
+    padding: 3px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    text-align: center;
+    opacity: .8;
+      &:hover {
+        opacity: 0.6;
+      }
+      &:active {
+        top: 4px;
+        text-shadow: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        font-size: 40px;
+        border-radius: 30px;
+        opacity: .7;
+        display: block;
+        margin: 20px 20px;
+      }
+
+       
+  }
+
+   dd {
+    .main-ul {
+      position: static;
+      width: 80%;
+      margin-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+      
+
+      .main-menu {
+        position: static;
+
+         width: 100%;
+        &:hover {
+        opacity: 0.6;
+       
+      }
+      &:active {
+        top: 4px;
+        text-shadow: none;
+      }
+      a {
+        text-decoration: none;
+        color: black;
+        background-color: white;
+        padding: 20px 20px 20px 20px;
+        font-size: 40px;
+        border-radius: 30px;
+        opacity: .7;
+        display: block;
+        margin: 20px 20px;
+        width: 100%;
+      }
+      }
+    }
+  }
+
+
 } 
 
 .container-about {
