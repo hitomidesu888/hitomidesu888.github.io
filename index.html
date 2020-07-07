@@ -54,8 +54,9 @@
       <li><a href="css.html">CSS</a></li>
       <li><a href="">JavaScript</a></li>
     </ul>
+    <section class="contents-menu">
     <dl>
-      <dt>HTML</dt>
+      <dt class="html-menu">HTML menu</dt>
       <dd>
         <ul class="main-ul">
           <li class="main-menu"><a href="">HTMLって何？</a></li>
@@ -64,7 +65,15 @@
           <li class="main-menu"><a href="">footer</a></li>
         </ul>
       </dd>
-      <dt><a href="">CSS</a></dt>
+      <dt class="css-menu">CSS menu</dt>
+      <dd>
+        <ul class="main-ul">
+          <li class="main-menu"><a href="">border</a></li>
+          <li class="main-menu"><a href="">position</a></li>
+          <li class="main-menu"><a href="">font-size</a></li>
+        </ul>
+      </dd>
+      <dt class="java-menu">CSS menu</dt>
       <dd>
         <ul class="main-ul">
           <li class="main-menu"><a href="">border</a></li>
@@ -73,6 +82,7 @@
         </ul>
       </dd>
     </dl>
+    </section>
   </div>
   <footer>
     <img class="logo" src="/image/3288.png">
@@ -101,10 +111,10 @@
       $('.h-menu').slideToggle();
     })
 
-    
+    $('dd').hide();
     $('dt').on('click',function ()
     {
-      $('.main-ul').slideToggle();
+      $(this).next().slideToggle();
     })
   </script>
 </body>

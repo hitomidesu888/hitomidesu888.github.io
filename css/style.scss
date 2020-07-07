@@ -281,22 +281,29 @@
     margin-top: 150px;
   }
   
+  
   dl {
-    width: 30%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     margin-left: 0;
   }
 
   dt {
-    border: 1px solid #fff;
     padding: 3px;
     display: flex;
-    flex-wrap: wrap;
     background-color: #fff;
     text-align: center;
     opacity: .8;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 20px 20px 20px 20px;
+    font-size: 40px;
+    border-radius: 30px;
+    opacity: .7;
+    display: block;
+    margin: 20px 20px;
+    width: 25%;
       &:hover {
         opacity: 0.6;
       }
@@ -315,10 +322,24 @@
         display: block;
         margin: 20px 20px;
       }
-
-       
   }
+.html-menu {
+  position: absolute;
+  top: 800px;
+  left: 5%;
+} 
 
+.css-menu {
+  position: absolute;
+  left: 35%;
+  top: 800px;
+}
+
+.java-menu {
+  position: absolute;
+  left: 65%;
+  top: 800px;
+}
    dd {
     .main-ul {
       position: static;
@@ -326,6 +347,7 @@
       margin-left: 0;
       display: flex;
       flex-wrap: wrap;
+      margin: 0;
       
 
       .main-menu {
