@@ -820,6 +820,9 @@ footer p {
   .container_index .container-about img {
     display: none;
   }
+  .container_index .section {
+    height: 700px;
+  }
   .container_index .section p {
     display: block;
   }
