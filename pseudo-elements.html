@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTMLって何？</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="image/apple-touch-icon.png" sizes="180×180">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script>
+
+  </script>
+</head>
+
+<body>
+  <div id="loading" class="loading active">
+    <div class="loadingText">Loading...</div>
+  </div>
+  <header class="header">
+    <img src="image/logo-w.png" alt="K-Dictionary">
+    <nav>
+      <ul>
+        <li><a href="">HTML</a></li>
+        <li><a href="css.html">CSS</a></li>
+        <li><a href="">JavaScript</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <div id="humberger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+  <ul class="h-menu">
+    <li class="menu">～ Menu ～</li>
+    <li class="item"><a href="html.html">HTML</a></li>
+    <li class="item
+        "><a href="css.html">CSS</a></li>
+    <li class="item"><a href="javascript.html">JavaScript</a></li>
+    <li class="item about"><a href="about.html">ABOUT</a></li>
+  </ul>
+  <div class="container_index">
+    <h1>疑似要素・疑似クラス</h1>
+    <img src="/image/dictionary.png">
+    <p>CSSでは7よく使う疑似要素・疑似クラスについて<br>まとめてみました。</p>
+    <p></p>
+    <div class="section">
+      <div>
+        <h1>疑似要素ってなあに？</h1>
+        <p>疑似要素とは、HTMLとは、<span>H</span>yper <span>T</span>ext <span>M</span>arkup <span>L</span>anguage（ハイパーテキスト・マークアップ・ランゲージ）の略です。</p>
+        <p>ハイパーテキスト？マークアップ？ってなりますよね。
+        </p>
+        <p><span>ハイパーテキスト</span>とは、ハイパーテキストリンクのことを意味していて、文書中の指定箇所にリンクを貼ることができ、ほかのページに移動することができる機能があるテキストのことなんです。</p>
+        <p>普段は意識せずサイトをみていますが、ページ移動はすべてハイパーテキストリンクを使っているということになります。</p>
+        <p>そして</p>
+        <p><span>マークアップ</span>とは、文書構造（テキスト）や視覚表現（装飾）などの情報をコンピューターが正しく認識できるように、タイトルや見出しなどの各構成要素に「タグ」と呼ばれる識別のための目印を使い、意味付けを行っていくことを意味しているんです。</p>
+        <p>例えば、タイトルを意味する＜ｈ１＞タグや本文を意味する＜ｐ＞タグなどがあります。これらは、私たち人間であれば、「これはタイトルです」と注釈がなくとも大きさなどから「これはタイトルだな」と判断することができますが、コンピューターはできません。なので、コンピューターにも理解できるようにルールに従ってタグを使い記述する必要があり、このことを「マークアップ」と呼びます。
+        </p>
+      </div>
+    </div>
+    
+  </div>
+  
+  <footer>
+    <img class="logo" src="/image/3288.png">
+    <ul>
+      <li><a href="https://twitter.com/hitomidesu888"><img src="/image/twitter.png"></a></li>
+      <li><a href="mailto:kakedashi.dictionary@gmail.com"><img src="/image/email.png"></a></li>
+      <li></li>
+    </ul>
+
+    <p>© All rights reserved by Kakedashi Dictionary.</p>
+  </footer>
+  <script src="jquery.min.js"></script>
+  <script>
+    $(window).on('load', function () {
+      setTimeout(function () {
+        $('#loading').removeClass('active')
+      }, 1000);
+    })
+
+    $('.h-menu').hide();
+    $('#humberger').on('click', function () {
+      $('.h-menu').slideToggle();
+    })
+
+    $('.h-menu').on('click', function () {
+      $('.h-menu').slideToggle();
+    })
+
+    $('.html-menu').on('click', function () {
+      $('.html').slideToggle();
+    })
+  </script>
+</body>
+
+</html>
